@@ -1,0 +1,336 @@
+/* 
+  CSS Stylesheet for Explore.Travellr Project Website.
+*/
+
+body{
+  font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+  word-wrap:break-word;
+}
+
+.inset{
+  width:960px;
+  margin:0 auto;
+}
+
+/*
+ *  General Typography
+ */
+ 
+ 
+h2{
+   color:#033e76;
+   font-family:Georgia;
+   font-size:24px;
+   font-weight:normal;
+   letter-spacing:-1px;
+   line-height:38px;
+   width:460px;
+ }
+ 
+ 
+h3{
+  font-size:16px;
+  color:#033e76;
+  margin-top: 10px;
+}
+
+h3+ul{
+  margin-top:8px;
+}
+
+h4{
+   color:#365F91;
+  
+   font-size:24px;
+   font-weight:normal;
+   letter-spacing:-1px;
+   line-height:38px;
+   width:460px;
+   text-shadow: 1px 1px 3px #888;
+   margin: 5px 15px;
+ }
+
+p{
+  font-size:12px;
+  color:#444;
+  line-height:22px;
+}
+
+/*
+ *  Buttons
+ */
+ 
+a.button{
+  display:block;
+  width:127px;
+  height:31px;
+  background:url(images/button-up.png);
+  float:left;
+  padding:14px 0 0;
+  text-align:center;
+  color:#fff;
+}
+
+#team_btn{
+  margin:0 0 40px 20px;
+}
+
+#app_btn{
+  float:right;
+  margin:0 20px 40px 0;
+}
+
+#travellr_btn{
+  margin:20px 0 0 96px;
+}
+
+/*
+ *  Header Section
+ */
+
+
+#header{
+  height:318px;
+  width:100%;
+  background:url(images/top-bg.png) repeat-x;
+}
+
+.sub{
+  background:url(images/top-bg-sub.png) repeat-x !important;
+  height:114px !important;
+}
+
+#nav_bar{
+  height:96px;
+}
+
+#logo{
+  height:96px;
+  width:294px;
+  background: url('images/logo.png') no-repeat 0 0;
+  float:left;
+  margin:0 0 0 10px;
+}
+
+#menu{
+  list-style:none;
+  float:right;
+  margin:0;
+}
+
+#menu li{
+  float:left;
+}
+
+#menu li a{
+  color:#666666;
+  display:block;
+  float:left;
+  font-size:15px;
+  height:24px;
+  padding:35px 20px 0;
+}
+
+#menu li a.selected{
+  background:#fff;
+  color:#033e76;
+}
+
+#menu li a:hover{
+  background:#fff;
+  color:#033e76;
+}
+
+/*
+ * Main Content Area
+ */
+
+#body{
+  margin:40px auto;
+}
+ 
+#main_col{
+  width:540px;
+  float:left;
+  padding:0 0 0 20px
+}
+
+#side_col{
+  width:320px;
+  float:right;
+  padding:0 20px 0 0;
+}
+
+/*
+ * Index
+ */
+
+#splash{
+  background:url(images/splash-bg.png) no-repeat scroll right top transparent;
+  height:155px;
+  padding:60px 0 0 20px;
+}
+
+#splash h2{
+  color:#ddd;
+  font-family:Georgia;
+  font-size:24px;
+  font-weight:normal;
+  letter-spacing:-1px;
+  line-height:38px;
+  width:460px;
+}
+
+#tweet_box{
+  clear:both;
+  width:278px;
+  height:300px;
+  border:1px solid #ddd;
+  margin:20px;
+  -moz-border-radius:5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#tweet_box h2{
+  background:url("images/h2-grey.png") repeat-x scroll 0 0 transparent;
+  display:block;
+  height:29px;
+  padding:13px 0 0 20px;
+  width:258px;
+}
+
+.tweet_text{
+  font-family: Segoe UI, arial;
+  font-size: 12px;
+  color: #444; 
+  word-wrap: break-word;
+  overflow:hidden;
+  display:block;
+}
+
+.tweet_time a{
+  font-size:8px;
+  display:block;
+  color:#777!important;
+}
+
+.tweet_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tweet_list li{
+  height:75px;
+  margin:10px; 
+}
+
+.tweet_list li a{
+  color: #0C717A; 
+}
+
+.tweet_avatar {
+  padding:5px;
+  float: left; 
+  border:1px solid #ddd;
+  margin:0 10px 20px 0;
+}
+
+.tweet_avatar img{
+  vertical-align: middle; 
+}
+
+#tweet_loader{
+  margin:50px 0 0 125px;
+}
+
+/* 
+ * Team Page
+ */
+ 
+.photo{
+  padding:10px;
+  border:1px solid #ddd;
+  width:520px;
+}
+
+.member_thumb{
+  padding:3px;
+  border:1px solid #ddd;
+  margin:5px 10px;
+  width:48px;
+  height:48px;
+  float:left;
+
+}
+
+/*
+ * Client Section
+ */
+ 
+#travellr-logo{
+  width:150px;
+  float:left;
+  padding:5px;
+  border:1px solid #eee;
+  margin:20px 10px 10px 0;
+}
+
+#travellr-ss{
+  margin:30px 0 0 0;
+}
+
+.profile{
+  width:290px;
+  clear:both;
+}
+
+.profile h3{
+  padding-top:30px;
+}
+
+
+#small_individual-logo{
+  width:125px;
+  float:left;
+  padding:5px;
+  margin:0px 10px 10px 0;
+}
+
+
+#individual-logo{
+  width:250px;
+  float:left; 
+  padding:5px;
+  margin:20px 10px 10px 0;
+}
+
+#footer {
+          color: #999;
+  clear:both;
+  width:960px;
+  border:1px solid #ddd;
+  text-align: center;
+  margin: 500px auto 20px;
+  padding: 10px;
+  -moz-border-radius:5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* the following rules apply only to IE7 */
+*+html #footer{
+          margin-top: 20px;
+}
+
+/*
+ * Tools Section
+ */
+ 
+ .faded_box{
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+ }
