@@ -44,7 +44,7 @@ h4{
   margin-top: 10px;
 }
 
-#tweet_box h4 {
+#tweet_box h3 {
    color:#365F91;
   
    font-size:24px;
@@ -172,7 +172,7 @@ a.button{
  * Index
  */
 
-#header h2 {
+#header p {
   clear: both;
   background:url(images/splash-bg.png) no-repeat scroll right top transparent;
   height:155px;
@@ -349,8 +349,16 @@ a.button{
  * Tools Section
  */
  
-.faded_box{
-	border-style:solid;
-	border-width:1px;
-	padding:5px;
+ul.tool_list {
+	margin-left: 0px;
 }
+ul.tool_list li {
+	list-style-type: none;
+	clear: both;
+	padding-left: 250px;
+}
+ul.tool_list h4 {
+	float: left;
+	margin-left: -250px;
+}
+
